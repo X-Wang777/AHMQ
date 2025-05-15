@@ -54,7 +54,7 @@ Est_fun <- function(result,burn_in=NULL,chain_length=NULL,cut_value=NULL){
   Q_all=alpha_all[-1,]
   
   if(is.null(burn_in)){
-    chain_length <- length(result[[cl]]$chain_sample$s[1,])
+    chain_length <- length(result[[1]]$chain_sample$s[1,])
     burn_in=0
   }
   sample_size=chain_length-burn_in
