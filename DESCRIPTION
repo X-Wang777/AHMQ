@@ -1,0 +1,13 @@
+Package: AHMQ
+Type: Package
+Title: What the Package Does in One 'Title Case' Line
+Version: 1.0
+Date: 2025-03-20
+Author: Xue Wang
+Maintainer: Xue Wang <wangx625@nenu.edu.cn>
+Description: One paragraph description of what the package does as one or more full sentences.
+License: GPL (>= 2)
+LinkingTo: Rcpp (>= 1.0.0), RcppArmadillo (>= 0.9.200), rgen
+Imports: Rcpp (>= 1.0.0), combinat,permute,stats
+NeedsCompilation: yes
+Packaged: 2025-05-15 09:04:50 UTC; xw656
